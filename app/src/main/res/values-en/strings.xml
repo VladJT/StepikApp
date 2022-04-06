@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StepikApp</string>
+    <string name="divide_zero">Divide by zero</string>
+    <string name="Calculate">calcuclate</string>
+    <string name="input_operation">operation:</string>
+    <string name="input_second_num">input 1</string>
+    <string name="input_first_num">input 2</string>
+</resources>

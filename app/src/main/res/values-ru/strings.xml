@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StepikApp</string>
+    <string name="divide_zero">Деление на ноль запрещено</string>
+    <string name="Calculate">Посчитать</string>
+    <string name="input_second_num">Введите число 2</string>
+    <string name="input_first_num">Введите число 1</string>
+    <string name="input_operation">Введите операцию:</string>
+</resources>
