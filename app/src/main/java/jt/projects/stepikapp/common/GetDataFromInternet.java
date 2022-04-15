@@ -1,4 +1,4 @@
-package jt.projects.stepikapp.weatherapp;
+package jt.projects.stepikapp.common;
 
 import android.os.AsyncTask;
 import android.util.Log;

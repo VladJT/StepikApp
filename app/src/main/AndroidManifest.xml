@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.StepikApp">
         <activity
-            android:name=".weatherapp.WeatherMainActivity"
+            android:name=".calendar.CalendarMainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

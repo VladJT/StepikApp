@@ -19,6 +19,7 @@ import java.util.Date;
 import java.util.Locale;
 
 import jt.projects.stepikapp.R;
+import jt.projects.stepikapp.common.GetDataFromInternet;
 
 public class WeatherMainActivity extends AppCompatActivity implements GetDataFromInternet.AsyncResponce, View.OnClickListener {
 
