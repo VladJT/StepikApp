@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import jt.projects.stepikapp.R;
 
-public class LoginMainActivity extends AppCompatActivity implements View.OnClickListener{
+public class LoginMainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private EditText etLogin;
     private EditText etPassword;
@@ -20,7 +20,6 @@ public class LoginMainActivity extends AppCompatActivity implements View.OnClick
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loginpwd);
-
         initViewComponents();
     }
 
@@ -34,8 +33,8 @@ public class LoginMainActivity extends AppCompatActivity implements View.OnClick
     @Override
     public void onClick(View v) {
         Intent intent = new Intent(this, SecondActivity.class);
-        intent.putExtra("login",etLogin.getText().toString());
-        intent.putExtra("password",etPassword.getText().toString());
+        intent.putExtra("login", etLogin.getText().toString());
+        intent.putExtra("password", etPassword.getText().toString());
         startActivity(intent);
     }
 }
