@@ -2,6 +2,7 @@ package jt.projects.stepikapp.loginpasswordapp;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.widget.TextView;
@@ -11,6 +12,9 @@ import androidx.annotation.Nullable;
 import jt.projects.stepikapp.R;
 
 public class SecondActivity extends Activity {
+
+
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,4 +36,6 @@ public class SecondActivity extends Activity {
         for(String st:versions) sb.append(st+"\n");
         tLoginInfo.setText(sb.toString());
     }
+
+
 }
